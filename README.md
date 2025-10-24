@@ -38,21 +38,35 @@ The objective is to create an interactive dashboard that answers business questi
 # Project Process
 ## 1. Data Understanding
 •	Reviewed each column to decide which KPIs could be derived.
+
 •	Identified categorical vs numeric features and columns needing standardization (job titles, company names, location codes).
+
 ## 2. Data Cleaning & Transformation (Power Query)
 •	Removed duplicates and empty/invalid rows.
+
 •	Standardized text fields (lower/upper case and consistent naming).
+
 •	Parsed posting_date and application_deadline into Date type and created days_to_deadline for urgency calculations.
+
 •	Converted salary fields to a consistent salary_usd column (where currency conversion was possible/assumed).
+
 •	Extracted year and month fields for time-series analysis.
+
 ## 3. Calculated Fields & DAX Metrics
 •	Total_Jobs_Posted (count of job_id)
+
 •	Avg_Salary (average of salary_usd)
+
 •	Avg_Exp_Required (average years_experience)
+
 •	Avg_Benefits_Score (average of benefits_score)
+
 •	Jobs_Near_Deadline (count where days_to_deadline <= 7)
+
 •	Skills_Count (count of skills in required_skills — used for scatter/insight)
+
 4. Dashboard Design & Iteration
 •	Selected visuals to answer the KPIs above: Map, Line chart, Bar chart, Donut chart, Treemap, Scatter plot, and a ranked Table.
+
 •	Iterated on layout for clarity and storytelling: top KPI cards, central time-series, geographic map, role-level table and scatter for deeper analysis.
 
