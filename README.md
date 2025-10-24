@@ -72,6 +72,8 @@ The objective is to create an interactive dashboard that answers business questi
 
 ## Dashboard interaction 
 - <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Screenshot%202025-10-24%20162534.png"> View Dataset</a>
+## Dashboard
+<img width="1466" height="804" alt="Screenshot 2025-10-24 162534" src="https://github.com/user-attachments/assets/e84c15af-b41f-4fea-835e-0034113d1f39" />
 
 ## Dashboard Overview & Visuals (what each visual does)
 ## Top KPI Cards (quick glance)
@@ -107,4 +109,31 @@ The objective is to create an interactive dashboard that answers business questi
 •	Scatter Plot (AI Job Market Dynamics): Avg_Salary vs Total_Jobs_Posted (bubble = skill count or benefits_score) to find roles with high demand and pay.
 
 •	Table (Ranked): AI Roles with the Highest Demand (columns include job_title, Total_Jobs_Posted, earliest application_deadline, Avg_Salary, Avg_Exp_Required, Avg_Benefits_Score). Useful to identify top and urgent roles.
+
+## Key Insights 
+•	Geographic concentration: Majority of openings concentrated in North America and Europe, with select hotspots in APAC.
+
+•	Top Employers: A few companies (e.g., TechCorp Inc, AI Innovations, Cognitive Computing) dominate posting volume (treemap).
+
+•	Work Mode: The distribution among On-site, Hybrid and Remote is fairly balanced — which means both remote-capable and on-site roles are actively hired.
+
+•	Senior Pay Premium: Executive and Senior levels show significantly higher Avg_Salary (e.g., executive ~188K USD in this dataset).
+
+•	Top Roles: AI Architect, AI Software Engineer, Machine Learning Engineer frequently appear among the top-demand table rows.
+
+•	Urgent Opportunities: Table shows roles with early application deadlines — good targets for quick applications.
+
+•	Benefits vs Pay: Some companies with high benefits_score also tend to offer higher-than-average salaries — investigate these companies for better total compensation.
+
+## Final Conclusion & Personal Reflection
+This dashboard is the result of focused hands-on work — not an automatic output. I cleaned the data, reasoned through which visuals tell the most useful story, wrote DAX measures for business-ready KPIs, and iterated on the layout to emphasize clarity and actionability.
+From this project I gained:
+
+•	Practical Power BI experience (Power Query + DAX + interactive report design)
+
+•	Better understanding of hiring market signals (salary vs demand vs benefits)
+
+•	Confidence in turning raw job data into a concise, recruiter-friendly narrative
+
+
 
