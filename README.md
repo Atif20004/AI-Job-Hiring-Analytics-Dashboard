@@ -16,4 +16,4 @@ The objective is to create an interactive dashboard that answers business questi
 •	Urgent / time-sensitive opportunities (based on application deadlines)
 
 ## Dataset Used
-- <a atif="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Ai_hiring_data.xlsx">Dataset</a>
+- <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Ai_hiring_data.xlsx">Dataset</a>
