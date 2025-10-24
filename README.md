@@ -65,8 +65,9 @@ The objective is to create an interactive dashboard that answers business questi
 
 •	Skills_Count (count of skills in required_skills — used for scatter/insight)
 
-4. Dashboard Design & Iteration
+## 4. Dashboard Design & Iteration
 •	Selected visuals to answer the KPIs above: Map, Line chart, Bar chart, Donut chart, Treemap, Scatter plot, and a ranked Table.
 
 •	Iterated on layout for clarity and storytelling: top KPI cards, central time-series, geographic map, role-level table and scatter for deeper analysis.
 
+## Dashboard interaction 
