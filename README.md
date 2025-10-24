@@ -18,7 +18,7 @@ The objective is to create an interactive dashboard that answers business questi
 ## Dataset Used
 - <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Ai_hiring_data.xlsx">Dataset</a>
 
-# Key Questions & Expanded KPIs
+## Key Questions & Expanded KPIs
 ## Primary KPIs
 1.	Total Jobs Posted (overall and by month/year)
 2.	Average Salary (USD) by experience level and by job title
@@ -72,3 +72,39 @@ The objective is to create an interactive dashboard that answers business questi
 
 ## Dashboard interaction 
 - <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Screenshot%202025-10-24%20162534.png"> View Dataset</a>
+
+## Dashboard Overview & Visuals (what each visual does)
+## Top KPI Cards (quick glance)
+•	Total Jobs — total job listings in dataset
+
+•	Total_Companies — unique hiring organizations
+
+•	Avg_Exp_Required — average experience required across selected scope
+
+•	Avg_Benefits_Score — average benefits rating
+## Filters & Interactivity (Slicers / Controls)
+•	Month Slicer (left vertical panel): Select months (January…December) to filter all visuals by month.
+
+•	company_location Dropdown: Filter visuals to specific countries/locations.
+
+•	job_title Dropdown: Focus on a job role or compare multiple roles.
+
+•	 Reset Button:clear selections.
+
+•	Clickable map points: Clicking a location shows company counts and filters other visuals.
+
+## Visuals & Purpose
+•	Map Visualization: Shows Total_Jobs_Posted by company_location (bubble size = number of postings). Great for geographic concentration.
+
+•	Line Chart (Trend): Total_Jobs_Posted by month & year — shows hiring seasonality.
+
+•	Bar Chart: Avg_Salary by experience_level — compares pay by seniority (Executive, Senior, Mid, Entry).
+
+•	Donut Chart: Total_Jobs_Posted by work_mode (On-site / Hybrid / Remote).
+
+•	Treemap: Top hiring companies (visual relative hiring volume).
+
+•	Scatter Plot (AI Job Market Dynamics): Avg_Salary vs Total_Jobs_Posted (bubble = skill count or benefits_score) to find roles with high demand and pay.
+
+•	Table (Ranked): AI Roles with the Highest Demand (columns include job_title, Total_Jobs_Posted, earliest application_deadline, Avg_Salary, Avg_Exp_Required, Avg_Benefits_Score). Useful to identify top and urgent roles.
+
