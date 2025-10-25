@@ -71,7 +71,7 @@ The objective is to create an interactive dashboard that answers business questi
 •	Iterated on layout for clarity and storytelling: top KPI cards, central time-series, geographic map, role-level table and scatter for deeper analysis.
 
 ## Dashboard interaction 
-- <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Screenshot%202025-10-24%20162534.png"> View Dataset</a>
+- <a href="https://github.com/Atif20004/AI-Job-Hiring-Analytics-Dashboard/blob/main/Screenshot%202025-10-24%20162534.png"> View Dashboard</a>
 ## Dashboard
 <img width="1466" height="804" alt="Screenshot 2025-10-24 162534" src="https://github.com/user-attachments/assets/e84c15af-b41f-4fea-835e-0034113d1f39" />
 
